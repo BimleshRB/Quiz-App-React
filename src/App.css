@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ li.data{
+    color: red;
+}
+li.data[data-correct="true"]{
+    color: green;
+}
